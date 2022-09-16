@@ -1,4 +1,6 @@
-<form class="add-form"
+<form 
+    *ngIf="showAddTask"
+    class="add-form"
     (ngSubmit)="onSubmit()"
 >
     <div class="form-control">
